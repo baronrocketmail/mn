@@ -1,26 +1,57 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+    font-family: "canto";
+    src: url(../pages/Canto-SemiBold.ttf) format("truetype");
+    font-weight: 400;
+    font-display: block;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
+html{
+    font-family: canto;
+    text-align: center;
+    font-size:7.5vw;
+    padding:0;
+    margin:0;
+    margin-top: 10vh;
+    overflow-x:hidden;
+    font-weight:400;
+    position:relative;
+    text-rendering:geometricPrecision;
+    background-color: #1E1E1E;
     color: white;
-    background: black;
-  }
 }
+a {
+    text-decoration: none;
+    color:white;
+}
+a:visited {
+    color:white;
+}
+
+
+/*html,*/
+/*body {*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,*/
+/*    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
+/*}*/
+
+/*a {*/
+/*  color: inherit;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/** {*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  html {*/
+/*    color-scheme: dark;*/
+/*  }*/
+/*  body {*/
+/*    color: white;*/
+/*    background: black;*/
+/*  }*/
+/*}*/
